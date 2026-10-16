@@ -30,5 +30,8 @@ def state_to_text(s):
         hour = int(s["time"].split(":")[0])
         if 6 <= hour < 18:  # the engine knows the market is open, so say the intent out loud
             parts.append(f"{n} wants to sell it at the market.")
+    hour_now = int(s["time"].split(":")[0])
+    if 8 <= hour_now < 17 and s["job"] != "retired" and s["hunger"] <= 7 and s["energy"] >= 3:
+        parts.append(f"It is working hours and {n} has {s['job']} duties to do.")
     parts.append(f'Last action: {s["last_action"]}.')
     return " ".join(parts)

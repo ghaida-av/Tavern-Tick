@@ -1,0 +1,219 @@
+06:00 Mira      work       conf=0.29 ASK  492ms  now at bakery
+06:00 Tomas     work       conf=0.27 ASK  493ms  now at farm
+06:00 Lena      wander     conf=0.29 ASK  493ms  now at square
+06:00 Odo       trade      conf=0.66      527ms  now at market
+06:00 Greta     work       conf=0.26 ASK  496ms  now at tavern
+06:00 Hale      work       conf=0.57      493ms  now at forge
+06:00 Wren      trade      conf=0.27 ASK  494ms  now at market
+06:00 Old Bram  wander     conf=0.29 ASK  493ms  now at square
+
+07:00 Mira      trade      conf=0.75      515ms  now at market
+07:00 Tomas     trade      conf=0.73      515ms  now at market
+07:00 Lena      socialize  conf=0.50      499ms  now at tavern
+07:00 Odo       trade      conf=0.47      501ms  now at market
+07:00 Greta     eat        conf=0.28 ASK  500ms  now at tavern
+07:00 Hale      work       conf=0.51      494ms  now at forge
+07:00 Wren      trade      conf=0.52      495ms  now at market
+07:00 Old Bram  socialize  conf=0.25 ASK  494ms  now at tavern
+
+08:00 Mira      work       conf=0.19 ASK  513ms  now at bakery
+08:00 Tomas     work       conf=0.36      514ms  now at farm
+08:00 Lena      socialize  conf=0.37      567ms  now at tavern
+08:00 Odo       trade      conf=0.43      515ms  now at market
+08:00 Greta     work       conf=0.79      512ms  now at tavern
+08:00 Hale      work       conf=0.73      513ms  now at forge
+08:00 Wren      trade      conf=0.51      514ms  now at market
+08:00 Old Bram  socialize  conf=0.81      509ms  now at tavern
+
+09:00 Mira      trade      conf=0.81      574ms  now at market
+09:00 Tomas     trade      conf=0.78      538ms  now at market
+09:00 Lena      socialize  conf=0.51      512ms  now at tavern
+09:00 Odo       trade      conf=0.49      560ms  now at market
+09:00 Greta     work       conf=0.88      513ms  now at tavern
+09:00 Hale      work       conf=0.74      522ms  now at forge
+09:00 Wren      trade      conf=0.56      520ms  now at market
+09:00 Old Bram  socialize  conf=0.77      495ms  now at tavern
+
+10:00 Mira      eat        conf=0.24 ASK  512ms  now at tavern
+10:00 Tomas     eat        conf=0.34      511ms  now at tavern
+10:00 Lena      socialize  conf=0.38      510ms  now at tavern
+10:00 Odo       trade      conf=0.48      679ms  now at market
+10:00 Greta     work       conf=0.89      513ms  now at tavern
+10:00 Hale      work       conf=0.46      512ms  now at forge
+10:00 Wren      trade      conf=0.54      525ms  now at market
+10:00 Old Bram  socialize  conf=0.79      495ms  now at tavern
+
+11:00 Mira      work       conf=0.72      512ms  now at bakery
+11:00 Tomas     work       conf=0.77      512ms  now at farm
+11:00 Lena      socialize  conf=0.43      510ms  now at tavern
+11:00 Odo       trade      conf=0.47      512ms  now at market
+11:00 Greta     work       conf=0.89      514ms  now at tavern
+11:00 Hale      work       conf=0.46      512ms  now at forge
+11:00 Wren      trade      conf=0.54      514ms  now at market
+11:00 Old Bram  socialize  conf=0.80      509ms  now at tavern
+
+12:00 Mira      trade      conf=0.69      571ms  now at market
+12:00 Tomas     trade      conf=0.71      534ms  now at market
+12:00 Lena      socialize  conf=0.37      510ms  now at tavern
+12:00 Odo       trade      conf=0.25 ASK  510ms  now at market
+12:00 Greta     sleep      conf=0.25 ASK  513ms  now at home:Greta
+12:00 Hale      eat        conf=0.21 ASK  510ms  now at tavern
+12:00 Wren      trade      conf=0.27 ASK  492ms  now at market
+12:00 Old Bram  socialize  conf=0.76      497ms  now at tavern
+
+13:00 Mira      socialize  conf=0.44      520ms  now at tavern
+13:00 Tomas     work       conf=0.35      512ms  now at farm
+13:00 Lena      eat        conf=0.43      491ms  now at tavern
+13:00 Odo       trade      conf=0.29 ASK  510ms  now at market
+13:00 Greta     work       conf=0.64      514ms  now at tavern
+13:00 Hale      work       conf=0.66      511ms  now at forge
+13:00 Wren      trade      conf=0.41      495ms  now at market
+13:00 Old Bram  socialize  conf=0.50      492ms  now at tavern
+
+14:00 Mira      socialize  conf=0.63      514ms  now at tavern
+14:00 Tomas     trade      conf=0.73      527ms  now at market
+14:00 Lena      work       conf=0.73      513ms  now at tavern
+14:00 Odo       trade      conf=0.27 ASK  510ms  now at market
+14:00 Greta     socialize  conf=0.36      514ms  now at tavern
+14:00 Hale      work       conf=0.68      510ms  now at forge
+14:00 Wren      trade      conf=0.42      492ms  now at market
+14:00 Old Bram  socialize  conf=0.53      496ms  now at tavern
+
+15:00 Mira      socialize  conf=0.65      513ms  now at tavern
+15:00 Tomas     socialize  conf=0.39      511ms  now at tavern
+15:00 Lena      work       conf=0.50      512ms  now at tavern
+15:00 Odo       trade      conf=0.26 ASK  493ms  now at market
+15:00 Greta     socialize  conf=0.66      514ms  now at tavern
+15:00 Hale      work       conf=0.49      510ms  now at forge
+15:00 Wren      trade      conf=0.41      492ms  now at market
+15:00 Old Bram  socialize  conf=0.52      493ms  now at tavern
+
+16:00 Mira      socialize  conf=0.68      513ms  now at tavern
+16:00 Tomas     socialize  conf=0.52      513ms  now at tavern
+16:00 Lena      work       conf=0.31      519ms  now at tavern
+16:00 Odo       trade      conf=0.24 ASK  501ms  now at market
+16:00 Greta     socialize  conf=0.67      519ms  now at tavern
+16:00 Hale      sleep      conf=0.33      498ms  now at home:Hale
+16:00 Wren      trade      conf=0.42      496ms  now at market
+16:00 Old Bram  socialize  conf=0.53      500ms  now at tavern
+
+17:00 Mira      socialize  conf=0.62      500ms  now at tavern
+17:00 Tomas     socialize  conf=0.55      496ms  now at tavern
+17:00 Lena      sleep      conf=0.48      497ms  now at home:Lena
+17:00 Odo       trade      conf=0.37      497ms  now at market
+17:00 Greta     socialize  conf=0.49      502ms  now at tavern
+17:00 Hale      wander     conf=0.20 ASK  493ms  now at square
+17:00 Wren      trade      conf=0.41      492ms  now at market
+17:00 Old Bram  eat        conf=0.43      493ms  now at tavern
+
+18:00 Mira      socialize  conf=0.46      494ms  now at tavern
+18:00 Tomas     socialize  conf=0.51      496ms  now at tavern
+18:00 Lena      eat        conf=0.26 ASK  493ms  now at tavern
+18:00 Odo       eat        conf=0.45      490ms  now at tavern
+18:00 Greta     socialize  conf=0.54      497ms  now at tavern
+18:00 Hale      wander     conf=0.77      501ms  now at square
+18:00 Wren      eat        conf=0.38      495ms  now at tavern
+18:00 Old Bram  socialize  conf=0.32      504ms  now at tavern
+
+19:00 Mira      socialize  conf=0.48      509ms  now at tavern
+19:00 Tomas     sleep      conf=0.31      511ms  now at home:Tomas
+19:00 Lena      socialize  conf=0.84      510ms  now at tavern
+19:00 Odo       socialize  conf=0.35      513ms  now at tavern
+19:00 Greta     socialize  conf=0.56      516ms  now at tavern
+19:00 Hale      wander     conf=0.77      493ms  now at square
+19:00 Wren      socialize  conf=0.31      511ms  now at tavern
+19:00 Old Bram  socialize  conf=0.65      511ms  now at tavern
+
+20:00 Mira      eat        conf=0.22 ASK  495ms  now at tavern
+20:00 Tomas     eat        conf=0.62      491ms  now at tavern
+20:00 Lena      socialize  conf=0.91      510ms  now at tavern
+20:00 Odo       socialize  conf=0.51      510ms  now at tavern
+20:00 Greta     eat        conf=0.38      509ms  now at tavern
+20:00 Hale      wander     conf=0.77      493ms  now at square
+20:00 Wren      socialize  conf=0.49      511ms  now at tavern
+20:00 Old Bram  socialize  conf=0.63      510ms  now at tavern
+
+21:00 Mira      sleep      conf=0.73      510ms  now at home:Mira
+21:00 Tomas     work       conf=0.35      510ms  now at farm
+21:00 Lena      socialize  conf=0.91      511ms  now at tavern
+21:00 Odo       socialize  conf=0.45      511ms  now at tavern
+21:00 Greta     socialize  conf=0.42      511ms  now at tavern
+21:00 Hale      wander     conf=0.77      493ms  now at square
+21:00 Wren      socialize  conf=0.39      509ms  now at tavern
+21:00 Old Bram  socialize  conf=0.30 ASK  511ms  now at tavern
+
+22:00 Mira      sleep      conf=0.74      493ms  now at home:Mira
+22:00 Tomas     sleep      conf=0.43      510ms  now at home:Tomas
+22:00 Lena      socialize  conf=0.69      511ms  now at tavern
+22:00 Odo       sleep      conf=0.33      509ms  now at home:Odo
+22:00 Greta     socialize  conf=0.53      511ms  now at tavern
+22:00 Hale      wander     conf=0.55      493ms  now at square
+22:00 Wren      sleep      conf=0.29 ASK  510ms  now at home:Wren
+22:00 Old Bram  sleep      conf=0.71      509ms  now at home:Old Bram
+
+23:00 Mira      sleep      conf=0.69      499ms  now at home:Mira
+23:00 Tomas     sleep      conf=0.54      518ms  now at home:Tomas
+23:00 Lena      socialize  conf=0.51      494ms  now at tavern
+23:00 Odo       eat        conf=0.26 ASK  494ms  now at tavern
+23:00 Greta     sleep      conf=0.54      496ms  now at home:Greta
+23:00 Hale      wander     conf=0.55      495ms  now at square
+23:00 Wren      eat        conf=0.27 ASK  496ms  now at tavern
+23:00 Old Bram  sleep      conf=0.40      495ms  now at home:Old Bram
+
+00:00 Mira      sleep      conf=0.68      495ms  now at home:Mira
+00:00 Tomas     sleep      conf=0.49      512ms  now at home:Tomas
+00:00 Lena      socialize  conf=0.49      495ms  now at tavern
+00:00 Odo       sleep      conf=0.21 ASK  499ms  now at home:Odo
+00:00 Greta     sleep      conf=0.52      510ms  now at home:Greta
+00:00 Hale      wander     conf=0.52      498ms  now at square
+00:00 Wren      sleep      conf=0.18 ASK  502ms  now at home:Wren
+00:00 Old Bram  eat        conf=0.29 ASK  498ms  now at tavern
+
+01:00 Mira      sleep      conf=0.51      502ms  now at home:Mira
+01:00 Tomas     sleep      conf=0.50      512ms  now at home:Tomas
+01:00 Lena      socialize  conf=0.51      494ms  now at tavern
+01:00 Odo       sleep      conf=0.58      495ms  now at home:Odo
+01:00 Greta     sleep      conf=0.55      510ms  now at home:Greta
+01:00 Hale      sleep      conf=0.42      493ms  now at home:Hale
+01:00 Wren      sleep      conf=0.56      510ms  now at home:Wren
+01:00 Old Bram  socialize  conf=0.34      495ms  now at tavern
+
+02:00 Mira      sleep      conf=0.49      494ms  now at home:Mira
+02:00 Tomas     sleep      conf=0.49      511ms  now at home:Tomas
+02:00 Lena      sleep      conf=0.54      494ms  now at home:Lena
+02:00 Odo       sleep      conf=0.57      495ms  now at home:Odo
+02:00 Greta     sleep      conf=0.55      510ms  now at home:Greta
+02:00 Hale      sleep      conf=0.32      495ms  now at home:Hale
+02:00 Wren      sleep      conf=0.58      510ms  now at home:Wren
+02:00 Old Bram  socialize  conf=0.77      496ms  now at tavern
+
+03:00 Mira      sleep      conf=0.48      495ms  now at home:Mira
+03:00 Tomas     sleep      conf=0.37      513ms  now at home:Tomas
+03:00 Lena      sleep      conf=0.45      495ms  now at home:Lena
+03:00 Odo       sleep      conf=0.57      495ms  now at home:Odo
+03:00 Greta     sleep      conf=0.55      518ms  now at home:Greta
+03:00 Hale      sleep      conf=0.31      521ms  now at home:Hale
+03:00 Wren      sleep      conf=0.55      534ms  now at home:Wren
+03:00 Old Bram  socialize  conf=0.20 ASK  532ms  now at tavern
+
+04:00 Mira      sleep      conf=0.50      514ms  now at home:Mira
+04:00 Tomas     sleep      conf=0.37      531ms  now at home:Tomas
+04:00 Lena      sleep      conf=0.47      513ms  now at home:Lena
+04:00 Odo       sleep      conf=0.53      513ms  now at home:Odo
+04:00 Greta     sleep      conf=0.56      523ms  now at home:Greta
+04:00 Hale      sleep      conf=0.34      505ms  now at home:Hale
+04:00 Wren      sleep      conf=0.58      520ms  now at home:Wren
+04:00 Old Bram  sleep      conf=0.21 ASK  521ms  now at home:Old Bram
+
+05:00 Mira      wander     conf=0.12 ASK  506ms  now at square
+05:00 Tomas     trade      conf=0.15 ASK  523ms  now at market
+05:00 Lena      eat        conf=0.39      503ms  now at tavern
+05:00 Odo       trade      conf=0.26 ASK  501ms  now at market
+05:00 Greta     sleep      conf=0.14 ASK  506ms  now at home:Greta
+05:00 Hale      eat        conf=0.37      501ms  now at tavern
+05:00 Wren      trade      conf=0.19 ASK  506ms  now at market
+05:00 Old Bram  wander     conf=0.35      506ms  now at square
+
+decisions: 192   median latency: 510 ms   p95: 527 ms
+flagged for escalation (confidence < 0.30): 35 (18%)
+actions: {'socialize': 55, 'sleep': 48, 'trade': 34, 'work': 26, 'eat': 17, 'wander': 12}
