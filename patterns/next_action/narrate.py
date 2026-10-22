@@ -1,7 +1,4 @@
-"""Turn a game-state dict into plain English.
-
-Lesson learned: bare numbers (hunger=9) made the model guess which way the
-scale runs. Words, plus stated intent, work much better."""
+"""Turn a game-state dict into plain English."""
 
 def _hunger(h):
     return ("not hungry at all" if h <= 2 else "a little peckish" if h <= 5
