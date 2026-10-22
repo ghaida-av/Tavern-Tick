@@ -1,5 +1,4 @@
-"""Ask Strands Decider for the next action. One request at a time:
-the Apple-silicon server can abort on concurrent requests."""
+
 import os, time
 from dataclasses import dataclass
 import httpx
