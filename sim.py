@@ -2,6 +2,7 @@
 import argparse, json, os, statistics
 from collections import Counter
 from patterns.next_action import decide, state_to_text
+import narrator
 
 WORKPLACE = {"baker": "bakery", "farmer": "farm", "bard": "tavern", "merchant": "market",
              "innkeeper": "tavern", "blacksmith": "forge", "fishmonger": "docks", "retired": "square"}
@@ -83,17 +84,20 @@ if __name__ == "__main__":
                 nearby = [o.name for o in town if o is not v and places[o.name] == places[v.name]]
                 text = state_to_text(v.state(hour, nearby))
                 d = decide(text)
-                v.apply(d.choice)
+                final, story = narrator.resolve(v.name, text, d)
+                v.apply(final)
                 total += 1; asks += d.escalate; lat.append(d.latency_ms); actions[d.choice] += 1
                 print(f'{hour:02d}:00 {v.name:9} {d.choice:10} conf={d.confidence:.2f} '
                       f'{"ASK" if d.escalate else "   "} {d.latency_ms:4.0f}ms  now at {v.place}')
+                if story: print(f'      ~ {story}')
                 log.write(json.dumps({"tick": t, "hour": hour, "villager": v.name, "state": text,
                                       "choice": d.choice, "confidence": round(d.confidence, 3),
                                       "latency_ms": round(d.latency_ms), "escalate": d.escalate,
-                                      "place": v.place}) + "\n")
+                                      "place": v.place, "final": final, "story": story, "provider": narrator.PROVIDER}) + "\n")
             print()
     lat.sort()
     print(f"decisions: {total}   median latency: {statistics.median(lat):.0f} ms   "
           f"p95: {lat[int(len(lat) * 0.95) - 1]:.0f} ms")
     print(f"flagged for escalation (confidence < 0.30): {asks} ({100 * asks / total:.0f}%)")
     print("actions:", dict(actions.most_common()))
+    print("narrator:", narrator.STATS)

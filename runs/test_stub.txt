@@ -1,0 +1,91 @@
+06:00 Mira      work       conf=0.29 ASK  498ms  now at bakery
+      ~ Mira hesitates, then decides to work.
+06:00 Tomas     work       conf=0.27 ASK  499ms  now at farm
+      ~ Tomas hesitates, then decides to work.
+06:00 Lena      wander     conf=0.29 ASK  494ms  now at square
+      ~ Lena hesitates, then decides to wander.
+06:00 Odo       trade      conf=0.66      532ms  now at market
+06:00 Greta     work       conf=0.26 ASK  498ms  now at tavern
+      ~ Greta hesitates, then decides to work.
+06:00 Hale      work       conf=0.57      498ms  now at forge
+06:00 Wren      trade      conf=0.27 ASK  498ms  now at market
+      ~ Wren hesitates, then decides to trade.
+06:00 Old Bram  wander     conf=0.29 ASK  496ms  now at square
+      ~ Old Bram hesitates, then decides to wander.
+
+07:00 Mira      trade      conf=0.75      515ms  now at market
+07:00 Tomas     trade      conf=0.73      515ms  now at market
+07:00 Lena      socialize  conf=0.50      496ms  now at tavern
+07:00 Odo       trade      conf=0.47      503ms  now at market
+07:00 Greta     eat        conf=0.28 ASK  498ms  now at tavern
+      ~ Greta hesitates, then decides to eat.
+07:00 Hale      work       conf=0.51      500ms  now at forge
+07:00 Wren      trade      conf=0.52      500ms  now at market
+07:00 Old Bram  socialize  conf=0.25 ASK  492ms  now at tavern
+      ~ Old Bram hesitates, then decides to socialize.
+
+08:00 Mira      work       conf=0.19 ASK  510ms  now at bakery
+      ~ Mira hesitates, then decides to work.
+08:00 Tomas     work       conf=0.36      515ms  now at farm
+08:00 Lena      socialize  conf=0.37      520ms  now at tavern
+08:00 Odo       trade      conf=0.43      518ms  now at market
+08:00 Greta     work       conf=0.79      514ms  now at tavern
+08:00 Hale      work       conf=0.73      520ms  now at forge
+08:00 Wren      trade      conf=0.51      518ms  now at market
+08:00 Old Bram  socialize  conf=0.81      507ms  now at tavern
+
+09:00 Mira      trade      conf=0.81      526ms  now at market
+09:00 Tomas     trade      conf=0.78      531ms  now at market
+09:00 Lena      socialize  conf=0.51      516ms  now at tavern
+09:00 Odo       trade      conf=0.49      527ms  now at market
+09:00 Greta     work       conf=0.88      513ms  now at tavern
+09:00 Hale      work       conf=0.74      512ms  now at forge
+09:00 Wren      trade      conf=0.56      514ms  now at market
+09:00 Old Bram  socialize  conf=0.77      499ms  now at tavern
+
+10:00 Mira      eat        conf=0.24 ASK  538ms  now at tavern
+      ~ Mira hesitates, then decides to eat.
+10:00 Tomas     eat        conf=0.34      515ms  now at tavern
+10:00 Lena      socialize  conf=0.38      521ms  now at tavern
+10:00 Odo       trade      conf=0.48      551ms  now at market
+10:00 Greta     work       conf=0.89      511ms  now at tavern
+10:00 Hale      work       conf=0.46      519ms  now at forge
+10:00 Wren      trade      conf=0.54      524ms  now at market
+10:00 Old Bram  socialize  conf=0.79      493ms  now at tavern
+
+11:00 Mira      work       conf=0.72      511ms  now at bakery
+11:00 Tomas     work       conf=0.77      508ms  now at farm
+11:00 Lena      socialize  conf=0.43      511ms  now at tavern
+11:00 Odo       trade      conf=0.47      512ms  now at market
+11:00 Greta     work       conf=0.89      516ms  now at tavern
+11:00 Hale      work       conf=0.46      515ms  now at forge
+11:00 Wren      trade      conf=0.54      514ms  now at market
+11:00 Old Bram  socialize  conf=0.80      536ms  now at tavern
+
+12:00 Mira      trade      conf=0.69      537ms  now at market
+12:00 Tomas     trade      conf=0.71      537ms  now at market
+12:00 Lena      socialize  conf=0.37      523ms  now at tavern
+12:00 Odo       trade      conf=0.25 ASK  528ms  now at market
+      ~ Odo hesitates, then decides to trade.
+12:00 Greta     sleep      conf=0.25 ASK  515ms  now at home:Greta
+      ~ Greta hesitates, then decides to sleep.
+12:00 Hale      eat        conf=0.21 ASK  508ms  now at tavern
+      ~ Hale hesitates, then decides to eat.
+12:00 Wren      trade      conf=0.27 ASK  499ms  now at market
+      ~ Wren hesitates, then decides to trade.
+12:00 Old Bram  socialize  conf=0.76      502ms  now at tavern
+
+13:00 Mira      socialize  conf=0.44      516ms  now at tavern
+13:00 Tomas     work       conf=0.35      523ms  now at farm
+13:00 Lena      eat        conf=0.43      502ms  now at tavern
+13:00 Odo       trade      conf=0.29 ASK  536ms  now at market
+      ~ Odo hesitates, then decides to trade.
+13:00 Greta     work       conf=0.64      512ms  now at tavern
+13:00 Hale      work       conf=0.66      514ms  now at forge
+13:00 Wren      trade      conf=0.41      497ms  now at market
+13:00 Old Bram  socialize  conf=0.50      490ms  now at tavern
+
+decisions: 64   median latency: 514 ms   p95: 536 ms
+flagged for escalation (confidence < 0.30): 15 (23%)
+actions: {'trade': 22, 'work': 20, 'socialize': 14, 'eat': 5, 'wander': 2, 'sleep': 1}
+narrator: {'provider': 'stub', 'escalated': 15, 'agreed': 15, 'overruled': 0, 'errors': 0}
